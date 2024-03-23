@@ -8,6 +8,6 @@ const schema = mongoose.Schema({
 })
 
 
-const Produto = mongoose.model('$TM_FILENAME_BASE', schema)
+const Produto = mongoose.model('Produto', schema)
 
-module.exports = $TM_FILENAME_BASE
+module.exports = Produto
